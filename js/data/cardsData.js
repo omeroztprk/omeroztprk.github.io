@@ -25,6 +25,7 @@ export const cardsData = [
       "./assets/images/project1-admin-panel-dashboard/image13.png",
       "./assets/images/project1-admin-panel-dashboard/image14.png",
       "./assets/images/project1-admin-panel-dashboard/image15.png",
+      "./assets/images/project1-admin-panel-dashboard/image16.png",
     ],
     links: [
       { url: "#", icon: "fas fa-play-circle" },
@@ -43,6 +44,7 @@ export const cardsData = [
       "./assets/images/project2-chatbot/image3.png",
       "./assets/images/project2-chatbot/image4.png",
       "./assets/images/project2-chatbot/image5.png",
+      "./assets/images/project2-chatbot/image6.png",
     ],
     links: [
       { url: "#", icon: "fas fa-play-circle" },
