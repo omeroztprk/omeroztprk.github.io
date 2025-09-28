@@ -215,6 +215,28 @@ window.PROJECTS_DATA = {
       repo: "https://github.com/omeroztprk/realtime-sts-bot",
     },
     {
+      id: "ai-media-studio",
+      title: "AI Media Studio",
+      description: [
+        "AI Media Studio is a comprehensive multimedia analysis and generation platform that combines OpenAI's advanced AI capabilities with intuitive media processing tools. Built with Node.js, Express, and vanilla JavaScript, the application provides users with three powerful modules: real-time image generation, intelligent image analysis, and advanced video content analysis.",
+        "The image generation module features real-time streaming with progressive image updates, allowing users to witness the creation process through multiple stages. Users can create detailed prompts and watch as AI transforms their descriptions into high-quality images with downloadable results and session management for seamless workflow continuation.",
+        "The intelligent image analysis system leverages GPT-4 Vision to examine uploaded images and generate optimized prompts for AI image generation. This reverse-engineering capability enables users to understand visual elements, composition, and styling techniques, making it perfect for creative inspiration and prompt optimization workflows.",
+        "The video analysis module represents the platform's most advanced feature, combining visual frame extraction with audio transcription using Whisper AI. The system analyzes video content holistically, examining both visual elements and spoken content to provide comprehensive insights about scenes, atmosphere, narrative flow, and technical aspects, making it invaluable for content creators and media professionals."
+      ],
+      cover: "assets/images/projects/ai-media-studio/gen-image.png",
+      images: [
+        "assets/images/projects/ai-media-studio/gen-image.png",
+        "assets/images/projects/ai-media-studio/gen-image1.png",
+        "assets/images/projects/ai-media-studio/analyze-image.png",
+        "assets/images/projects/ai-media-studio/analyze-image1.png",
+        "assets/images/projects/ai-media-studio/analyze-video.png",
+        "assets/images/projects/ai-media-studio/analyze-video1.png",
+      ],
+      categories: ["fullstack", "ai"],
+      tags: ["Node.js", "Express", "FFmpeg", "OpenAI API"],
+      repo: "https://github.com/omeroztprk/ai-media-studio",
+    },
+    {
       id: "portfolio-website",
       title: "Portfolio Website",
       description: [
