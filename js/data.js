@@ -195,6 +195,26 @@ window.PROJECTS_DATA = {
       repo: "https://github.com/omeroztprk/ai-chatbot",
     },
     {
+      id: "realtime-sts-bot",
+      title: "Realtime Speech-to-Speech Bot",
+      description: [
+        "Realtime Speech-to-Speech Bot is an advanced conversation platform that leverages OpenAI's cutting-edge Realtime API to provide seamless voice interactions. Built with vanilla JavaScript on the frontend and Node.js/Express on the backend, the application delivers real-time audio processing with WebRTC technology for ultra-low latency communication.",
+        "The platform features an intuitive push-to-talk interface with multiple voice options, allowing users to select from eight different AI personalities including Alloy, Ash, Ballad, Coral, Echo, Sage, Shimmer, and Verse. Advanced voice activity detection automatically manages conversation flow, while users can customize system prompts and utilize dynamic variables for personalized interactions.",
+        "Beyond basic voice chat, the system integrates practical tools including real-time weather information and currency exchange rate queries. These function calls are handled seamlessly within conversations, providing users with actionable data without breaking the conversational flow. The application also features comprehensive session management and detailed logging for monitoring system performance.",
+        "With its responsive design, real-time audio streaming, and professional WebRTC implementation, the Speech-to-Speech Bot offers a production-ready solution for voice-enabled applications. The modular architecture supports easy extension with additional tools and features, making it suitable for various use cases from personal assistants to business automation platforms."
+      ],
+      cover: "assets/images/projects/realtime-sts-bot/interface1.png",
+      images: [
+        "assets/images/projects/realtime-sts-bot/interface.png",
+        "assets/images/projects/realtime-sts-bot/voice.png",
+        "assets/images/projects/realtime-sts-bot/prompt.png",
+        "assets/images/projects/realtime-sts-bot/interface1.png",
+      ],
+      categories: ["fullstack", "ai"],
+      tags: ["Node.js", "Express", "WebRTC", "OpenAI API"],
+      repo: "https://github.com/omeroztprk/realtime-sts-bot",
+    },
+    {
       id: "portfolio-website",
       title: "Portfolio Website",
       description: [
