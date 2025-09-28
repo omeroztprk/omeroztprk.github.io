@@ -173,6 +173,28 @@ window.PROJECTS_DATA = {
       badges: ["featured"]
     },
     {
+      id: "ai-chatbot",
+      title: "AI Chatbot",
+      description: [
+        "AI Chatbot is a full-stack conversational platform designed to provide users with a seamless and interactive experience through real-time communication. Built with Angular on the frontend and Node.js/Express on the backend, the system combines modern web technologies with OpenAI integration to deliver intelligent and context-aware responses.",
+        "The application features a dual interface, allowing users to chat either through the main dashboard or a floating chatbot widget. With its real-time streaming capabilities, messages are delivered instantly, while optional additional prompts enable users to personalize conversations and create richer context for the assistant.",
+        "Beyond simple chat, the platform offers secure authentication with JWT tokens, session management, and persistent chat history. These features ensure both security and continuity, giving users a professional and reliable environment to interact with the chatbot across different sessions and devices.",
+        "With its modern design, responsive layout, and intuitive user experience, the AI Chatbot provides a visually appealing and highly functional communication tool. Its scalable and modular architecture makes it suitable for integration into larger platforms, offering both flexibility and long-term sustainability."
+      ],
+      cover: "assets/images/projects/ai-chatbot/chatbot-talk.png",
+      images: [
+        "assets/images/projects/ai-chatbot/login.png",
+        "assets/images/projects/ai-chatbot/register.png",
+        "assets/images/projects/ai-chatbot/chatbot.png",
+        "assets/images/projects/ai-chatbot/chatbot-talk.png",
+        "assets/images/projects/ai-chatbot/chatbot-talk1.png",
+        "assets/images/projects/ai-chatbot/chatbot-floating.png",
+      ],
+      categories: ["fullstack", "ai"],
+      tags: ["Node.js", "Express", "MongoDB", "Angular", "OpenAI API"],
+      repo: "https://github.com/omeroztprk/ai-chatbot",
+    },
+    {
       id: "portfolio-website",
       title: "Portfolio Website",
       description: [
