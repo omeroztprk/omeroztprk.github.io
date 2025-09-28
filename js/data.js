@@ -138,8 +138,40 @@ window.PROJECTS_DATA = {
     project: "assets/images/projects/defaults/project-default.png",
     empty: "assets/images/projects/defaults/empty-default.png"
   },
-
   projects: [
+    {
+      id: "admin-panel-dashboard",
+      title: "Admin Panel Dashboard",
+      description: [
+        "Admin Panel Dashboard is a comprehensive full-stack administration platform designed to provide organizations with a scalable, secure, and professional environment for managing users, roles, permissions, categories, and customers. Built with Node.js, Express, and MongoDB on the backend, and Angular on the frontend, it delivers a modular architecture that ensures each core entity is fully manageable through dedicated CRUD components.",
+        "Beyond standard management features, the system integrates a customer-focused chatbot assistant, allowing tailored prompts and interactions to be configured directly within the dashboard. Additionally, the application includes detailed audit logs, session tracking, and advanced statistics dashboards, providing full visibility into system health, user activities, and organizational performance.",
+        "The platform offers robust authentication mechanisms, including JWT access/refresh tokens and optional two-factor authentication, combined with a flexible role-based access control system. This guarantees fine-grained authorization across all modules, empowering administrators to enforce security and compliance with ease.",
+        "With its responsive, card-based UI design, consistent global style guidelines, and efficient list views with pagination, filtering, and sorting, the Admin Panel Dashboard ensures a seamless and intuitive user experience. Its modular, extensible structure makes it adaptable for organizations of varying sizes, offering both sustainability and long-term scalability."
+      ],
+      cover: "assets/images/projects/admin-panel-dashboard/dashboard.png",
+      images: [
+        "assets/images/projects/admin-panel-dashboard/login.png",
+        "assets/images/projects/admin-panel-dashboard/register.png",
+        "assets/images/projects/admin-panel-dashboard/tfa.png",
+        "assets/images/projects/admin-panel-dashboard/dashboard.png",
+        "assets/images/projects/admin-panel-dashboard/statistics.png",
+        "assets/images/projects/admin-panel-dashboard/profile-details.png",
+        "assets/images/projects/admin-panel-dashboard/profile-edit.png",
+        "assets/images/projects/admin-panel-dashboard/sessions.png",
+        "assets/images/projects/admin-panel-dashboard/users.png",
+        "assets/images/projects/admin-panel-dashboard/roles.png",
+        "assets/images/projects/admin-panel-dashboard/permissions.png",
+        "assets/images/projects/admin-panel-dashboard/customers.png",
+        "assets/images/projects/admin-panel-dashboard/customer-details.png",
+        "assets/images/projects/admin-panel-dashboard/chatbot.png",
+        "assets/images/projects/admin-panel-dashboard/audit-logs.png",
+        "assets/images/projects/admin-panel-dashboard/categories.png",
+      ],
+      categories: ["fullstack", "ai"],
+      tags: ["Node.js", "Express", "MongoDB", "Angular", "OpenAI API"],
+      repo: "https://github.com/omeroztprk/admin-panel-dashboard",
+      badges: ["featured"]
+    },
     {
       id: "portfolio-website",
       title: "Portfolio Website",
