@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omer Oztoprak Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/project.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="container header-container">
+            <a href="#home" class="logo logo-sm" aria-label="Ömer Öztoprak - Home">
+                <img src="assets/images/logo.png" alt="Logo">
+            </a>
+
+            <nav class="nav" role="navigation" aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link nav-link-active" aria-current="page">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <button class="menu-toggle" type="button" aria-label="Toggle menu" aria-controls="site-nav"
+                aria-expanded="false">
+                <span class="menu-toggle-bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="menu-overlay" hidden aria-hidden="true"></div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section" aria-label="Home">
+            <div class="container">
+                <h1 class="hero-title">
+                </h1>
+
+                <div class="hero-typewriter" aria-live="polite">
+                    <span class="hero-typewriter-prefix">I'm a </span>
+                    <span class="hero-typewriter-text" id="profession-text"></span>
+                    <span class="hero-cursor" aria-hidden="true"></span>
+                </div>
+
+                <p class="hero-description">
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary btn-xl">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary btn-xl">Contact Me</a>
+                </div>
+
+                <a href="#about" class="scroll-indicator" aria-label="Scroll to next section">
+                    <span class="scroll-indicator-mouse">
+                        <span class="scroll-indicator-wheel"></span>
+                    </span>
+                    <span class="scroll-indicator-arrow"></span>
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section" aria-label="About">
+            <div class="container">
+                <h2 class="section-title">About</h2>
+                <div class="about-content">
+                    <div class="about-image-section">
+                        <div class="about-image">
+                            <img src="" alt="">
+                        </div>
+                        <div class="about-social">
+                        </div>
+                    </div>
+                    <div class="about-text-section">
+                        <div class="about-description">
+                        </div>
+                        <div class="about-actions">
+                            <a href="" class="btn btn-primary btn-lg" download aria-label="Download Resume">
+                                <i class="fas fa-download"></i>
+                                Download Resume
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section" aria-label="Skills">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-content">
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section" aria-label="Projects">
+            <div class="container">
+                <h2 class="section-title">My Projects</h2>
+
+                <!-- Filters -->
+                <div class="projects-toolbar" role="toolbar" aria-label="Filter projects">
+                    <div id="project-filters" class="projects-filters"></div>
+                </div>
+
+                <!-- Project Grid -->
+                <div id="projects-grid" class="projects-grid" aria-live="polite"></div>
+
+                <!-- Pagination -->
+                <nav id="projects-pagination" class="pagination" aria-label="Projects pagination"></nav>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section" aria-label="Contact">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact-content">
+                    <div class="contact-description">
+                        <p>
+                        </p>
+                    </div>
+                    <div class="contact-grid">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Project Modal -->
+    <div id="project-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+        <div class="modal-overlay"></div>
+        <div class="modal-dialog">
+            <button class="modal-close" type="button" aria-label="Close modal">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-body">
+                <!-- Gallery Section -->
+                <div class="modal-gallery">
+                    <div class="modal-gallery-main">
+                        <img src="" alt="">
+                        <button class="modal-gallery-nav modal-gallery-nav-prev" type="button"
+                            aria-label="Previous image">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="modal-gallery-nav modal-gallery-nav-next" type="button" aria-label="Next image">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                    <div class="modal-gallery-thumbs" role="tablist"></div>
+                </div>
+
+                <!-- Details Section -->
+                <div class="modal-details">
+                    <div class="modal-header">
+                        <h2 id="modal-title" class="modal-title"></h2>
+                        <div class="modal-tags"></div>
+                    </div>
+
+                    <div class="modal-description"></div>
+
+                    <div class="modal-actions">
+                        <a class="btn btn-primary btn-lg" href="#" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-up-right-from-square"></i>
+                            Live Demo
+                        </a>
+                        <a class="btn btn-secondary btn-lg" href="#" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                            View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#home" class="logo logo-sm" aria-label="Back to top">
+                        <img src="assets/images/logo.png" alt="Footer Logo">
+                    </a>
+                    <p class="footer-tagline">
+                        Creating modern web experiences with clean and efficient code.
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <h3 class="footer-heading">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home" class="footer-link">Home</a></li>
+                        <li><a href="#about" class="footer-link">About</a></li>
+                        <li><a href="#skills" class="footer-link">Skills</a></li>
+                        <li><a href="#projects" class="footer-link">Projects</a></li>
+                        <li><a href="#contact" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3 class="footer-heading">Connect</h3>
+                    <div class="footer-social">
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ömer Öztoprak. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/data.js" defer></script>
+    <script src="js/render.js" defer></script>
+    <script src="js/script.js" defer></script>
+</body>
+
+</html>

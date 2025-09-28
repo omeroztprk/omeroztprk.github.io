@@ -1,1 +1,3 @@
-# omeroztprk.github.io
+## Live Site
+
+[View Portfolio Website](https://omeroztprk.github.io)
