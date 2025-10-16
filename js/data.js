@@ -189,6 +189,7 @@ window.PROJECTS_DATA = {
         "assets/images/projects/ai-chatbot/chatbot-talk.png",
         "assets/images/projects/ai-chatbot/chatbot-talk1.png",
         "assets/images/projects/ai-chatbot/chatbot-floating.png",
+        "assets/images/projects/ai-chatbot/n8n.png",
       ],
       categories: ["fullstack", "ai"],
       tags: ["Node.js", "Express", "MongoDB", "Angular", "OpenAI API"],
