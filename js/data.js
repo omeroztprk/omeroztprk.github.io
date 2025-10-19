@@ -238,6 +238,25 @@ window.PROJECTS_DATA = {
       repo: "https://github.com/omeroztprk/ai-media-studio",
     },
     {
+      id: "covid19-dashboard",
+      title: "COVID-19 Dashboard",
+      description: [
+        "COVID-19 Dashboard is a data engineering project that ingests global time-series case data into Elasticsearch and visualizes it in Kibana. The pipeline fetches the official Johns Hopkins CSSE dataset, normalizes it, and indexes geospatial documents for fast querying and mapping.",
+        "Built with Python and Pandas, the processor melts the wide CSV into a tidy format, parses dates, fills missing province/state values, and enriches each record with a geo_point field for accurate geospatial visualizations. The Elasticsearch mapping is created programmatically to ensure proper types and efficient indexing.",
+        "A robust loader uses the official Elasticsearch Python client and bulk helpers for high-throughput ingestion with progress feedback and verification via index counts. The setup includes a Docker Compose stack for one-click local development with Elasticsearch and Kibana.",
+        "With Kibana, users can explore trends over time, filter by country or region, and build maps and dashboards that provide real-time insights into the spread and intensity of confirmed cases."
+      ],
+      cover: "assets/images/projects/covid19-dashboard/graphs1.png",
+      images: [
+        "assets/images/projects/covid19-dashboard/graphs1.png",
+        "assets/images/projects/covid19-dashboard/graphs2.png",
+      ],
+      categories: ["backend"],
+      tags: ["Python", "Elasticsearch", "Kibana", "Docker"],
+      repo: "https://github.com/omeroztprk/covid19-dashboard",
+      badges: []
+    },
+    {
       id: "portfolio-website",
       title: "Portfolio Website",
       description: [
