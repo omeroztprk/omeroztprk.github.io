@@ -23,7 +23,7 @@ window.ABOUT_DATA = {
     "Alongside my education, I completed an internship where I gained valuable experience in developing sustainable and scalable applications. I actively contributed to every stage of project lifecycles, strengthening not only my technical expertise but also my communication skills, while gaining hands-on experience in solving real-world challenges within a professional work environment.",
     "My career goal is to become an AI Engineer specializing in developing AI-driven solutions and full-stack projects. To achieve this, I am committed to continuously improving myself by keeping up with innovative technologies and contributing to the industry through projects that create tangible value."
   ],
-  resumeLink: "assets/omeroztprk-resume.pdf"
+  resumeLink: "assets/omeroztoprak-resume.pdf"
 };
 
 // ===========================================
