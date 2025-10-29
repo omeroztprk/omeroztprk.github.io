@@ -246,10 +246,10 @@ window.PROJECTS_DATA = {
         "A robust loader uses the official Elasticsearch Python client and bulk helpers for high-throughput ingestion with progress feedback and verification via index counts. The setup includes a Docker Compose stack for one-click local development with Elasticsearch and Kibana.",
         "With Kibana, users can explore trends over time, filter by country or region, and build maps and dashboards that provide real-time insights into the spread and intensity of confirmed cases."
       ],
-      cover: "assets/images/projects/covid19-dashboard/graphs1.png",
+      cover: "assets/images/projects/covid19-dashboard/charts.png",
       images: [
-        "assets/images/projects/covid19-dashboard/graphs1.png",
-        "assets/images/projects/covid19-dashboard/graphs2.png",
+        "assets/images/projects/covid19-dashboard/charts.png",
+        "assets/images/projects/covid19-dashboard/charts1.png",
       ],
       categories: ["backend"],
       tags: ["Python", "Elasticsearch", "Kibana", "Docker"],
